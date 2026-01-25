@@ -1,4 +1,4 @@
-package GUI;
+package JavaSwing;
 
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
@@ -18,7 +18,7 @@ public class Aula26_JFreeChartBarChart extends JFrame {
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         dataset = new DefaultCategoryDataset();//inicializamos a estrutura
-        dataset.addValue(200, "Vendas", "Janeio");//adicionamos os valores a estrutura(valor,identificaor da linha,identificador da coluna)
+        dataset.addValue(200, "Vendas", "Janeiro");//adicionamos os valores a estrutura(valor,identificaor da linha,identificador da coluna)
         dataset.addValue(150, "Vendas", "Fevereiro");
         dataset.addValue(180, "Vendas", "Marco");
         dataset.addValue(260, "Vendas", "Abril");

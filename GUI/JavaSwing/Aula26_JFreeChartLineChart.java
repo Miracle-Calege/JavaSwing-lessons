@@ -1,4 +1,4 @@
-package GUI;
+package JavaSwing;
 
 import javax.swing.*;
 import org.jfree.chart.ChartFactory;
